@@ -1,1 +1,1 @@
-# gko.kamgov.ru
+gko.kamgov.ru

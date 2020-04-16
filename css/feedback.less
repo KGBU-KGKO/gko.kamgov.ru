@@ -1,0 +1,219 @@
+.b-feedback
+{
+	.title
+	{
+		font-size: x-large;
+		font-weight: 400;
+		padding: 0 1.5em .25em;
+    border-bottom: solid 1px #adabab;		
+	}
+	
+	.required-note
+	{
+		font-size: 90%;
+		span { color: red; }
+	}
+	
+	.information-link
+	{
+		color: #1c5b93;
+		border-bottom: dotted 1px;
+		cursor: pointer;
+		font-size: 90%;
+	}
+	
+	.information-block
+	{
+		overflow: hidden;
+		display: none;
+		padding: 1em;
+		font-size: 100%;
+		background: #eee;
+	}
+	
+	.left, .right
+	{
+		box-sizing: border-box;
+		float: left;
+		overflow: hidden;
+	}
+	.left { width: 70%; padding-right: 1em; }
+	.right { width: 30%; }
+	
+	.relative-links
+	{
+		display: block;
+		overflow: hidden;
+		background: #eee;
+		padding: 1em;
+		
+		a
+		{
+			display: block;
+			color: #1c5b93;
+			margin: 1em 0;
+			text-decoration: none;
+		}
+		a:hover
+		{
+			text-decoration: underline;
+		}
+	}
+}
+
+
+.form
+{
+	input[type="text"], textarea
+	{
+		border: solid 1px #1c5b93;
+		padding: 0.5em;
+		width: 20em;
+	}
+	input[type="text"]
+	{
+	}
+	textarea
+	{
+		height: 10em;
+	}
+	button
+	{
+		font-size: 100%;
+		font-family: Oswald;
+		font-weight: 300;
+	}
+	
+	.group
+	{
+		padding: 1em 0;
+		
+		.label
+		{
+			width: 10em;
+			display: inline-block;
+			vertical-align: top;
+		}
+		.field-error-text
+		{
+			display: none;
+			color: red;
+			margin-left: 10.15em;
+			padding: .5em 0;
+		}
+		
+		&.has-error 		
+		{
+			.field-error-text
+			{
+				display: inherit;
+			}
+			input[type="text"], textarea
+			{
+				border-color: red;
+				outline-color: red;
+			}
+		}
+		
+		&.required label::after
+		{
+			display: inline;
+			content: '*';
+			color: red;
+			margin-left: .2em;
+		}
+		
+		.file-group
+		{
+			input[type=file]
+			{
+				display: block;
+				width: 0;
+				height: 0;			
+			}
+			input[type=file]:focus
+			{
+				outline: 0;
+			}
+			
+			.note
+			{
+				font-size: 90%;
+				padding: 1em 0;
+				width: 50%;
+				min-width: 220px;
+			}
+		}
+	}
+	
+	.radio-group
+	{
+		label
+		{
+			display: block;
+			padding: .5em 0;
+			margin-left: 10em;
+		}
+	}
+	
+	
+	.btn {
+		display: inline-block;
+		padding: 0.25em 1em;
+		text-align: center;
+		
+		background: #3498db;
+		background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+		background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+		background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+		background-image: -o-linear-gradient(top, #3498db, #2980b9);
+		background-image: linear-gradient(to bottom, #3498db, #2980b9);
+		-webkit-border-radius: 4;
+		-moz-border-radius: 4;
+		border-radius: 4px;
+		color: #ffffff;
+		border: solid #1f628d 1px;
+		text-decoration: none;
+	}
+
+	.btn:hover 
+	{
+		background: #3cb0fd;
+		background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+		background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+		background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+		background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+		background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+		text-decoration: none;
+	}	
+	.btn:active
+	{
+		background: #3498db;
+	}
+	.btn:disabled
+	{
+		background: #ccc;
+		border-color: #888;
+	}
+	
+	.submit-group
+	{
+    text-align: right;
+    margin: 2em 0;
+    padding-top: 2em;
+    border-top: dotted 1px black;		
+	}
+	
+	.message.success
+	{
+		color: green;
+    border-left: solid 2px green;
+    padding: 1em;		
+	}
+	.message.has-error
+	{
+		color: red;
+    border-left: solid 2px red;
+    padding: 1em;		
+	}
+}

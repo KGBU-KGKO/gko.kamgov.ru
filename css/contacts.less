@@ -1,0 +1,96 @@
+.b-contacts
+{
+	.title
+	{
+		font-size: x-large;
+		font-weight: 400;
+		padding: 0 1.5em;
+		border-bottom: solid 1px #adabab;
+    padding-bottom: 0.25em;		
+	}
+	
+	.left, .right
+	{
+		box-sizing: border-box;
+		float: left;
+		overflow: hidden;
+	}
+	.left { width: 70%; padding-right: 2em; }
+	.right { width: 30%; }
+	
+	.fullinfo
+	{
+		dl
+		{
+			display: block;
+			overflow: hidden;
+			clear: both;
+			
+			dt, dd
+			{
+				float: left;
+				margin: 1em 0;
+				box-sizing: border-box;
+			}
+			dt
+			{
+				font-weight: 400;
+				clear: left;
+				width: 15em;
+				padding-right: 1em;
+			}
+			dd
+			{
+				clear: right;
+			}
+		}
+	}
+
+	.requisites
+	{
+		display: block;
+		overflow: hidden;
+		background: #eee;
+		padding: 1em;
+		
+		
+		dl
+		{
+			display: block;
+			overflow: hidden;
+			clear: both;
+			
+			dt, dd
+			{
+				float: left;
+				margin: .25em 0;
+				box-sizing: border-box;
+			}
+			dt
+			{
+				font-weight: 400;
+				clear: left;
+				width: 50%;
+				padding-right: 1em;
+			}
+			dd
+			{
+				clear: right;
+			}
+			dd::after
+			{
+				content: attr(hint);
+				display: none;
+				position: absolute;
+				background: black;
+				background: rgba(0,0,0,0.7);
+				color: white;
+			}
+			dd:hover::after
+			{
+				display: block;
+			}
+		}
+	}	
+	
+}

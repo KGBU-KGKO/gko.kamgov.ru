@@ -1,0 +1,206 @@
+html, body { height: 100%; }
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+
+/*
+ * Размеры сетки
+ */
+@desktop-size:		1024px;
+@notebook-size:		960px;
+@tablet-size:			768px;
+@phone-size:			480px;
+
+@color: 					rgb(26, 87, 115);
+
+@media screen and (max-width: 2400px)
+{
+	body { font-size: 20px; }
+}
+@media screen and (max-width: 1920px) 
+{
+	body { font-size: 18px; }
+}
+@media screen and (max-width: 1680px)
+{
+	body { font-size: 16px; }
+}
+@media screen and (max-width: @desktop-size)
+{
+	body { font-size: 15px; }
+}
+@media screen and (max-width: @notebook-size) 
+{
+	body { font-size: 14px; }
+}
+@media screen and (max-width: @tablet-size)
+{
+	body { font-size: 13px; }
+}
+@media screen and (min-width: 481px) and (max-width: 767px) 
+{
+	body { font-size: 12px; }
+}
+@media screen and (max-width: @phone-size)
+{
+	body { font-size: 11px; }
+}
+@media screen and (min-width: 350px) and (max-width: 479px)
+{
+	body { font-size: 11px; }
+}
+@media screen and (min-width: 240px) and (max-width: 349px)
+{
+	body { font-size: 10px; }
+}
+
+
+.text-left  { text-align: left !important }
+.text-right  { text-align: right !important }
+.text-center { text-align: center !important }
+.text-justify { text-align: justify !important }
+.text-indent { text-indent: 1.5em; }
+
+.pull-left { float: left; }
+.pull-right { float: right; }
+
+.hide, .hidden { display: none }
+
+.sr-only { position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0 }
+
+
+.clearfix
+{
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+.clearfix::before,
+.clearfix::after
+{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+
+/*
+ * Grid system  - взять от портала
+ */
+
+.section 
+{ 
+	
+}
+.section .content
+{
+	display: block;
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+	max-width: 1280px;
+	margin: 3em auto;
+	box-sizing: border-box;
+}
+.section .row
+{
+	display: block;
+	float: none;
+	clear: both;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.columns .xs-1,
+.columns .xs-2,
+.columns .xs-3,
+.columns .sm-1,
+.columns .sm-2,
+.columns .sm-3,
+.columns .sm-4,
+.columns .md-1,
+.columns .md-2,
+.columns .md-3,
+.columns .md-4,
+.columns .md-5,
+.columns .lg-1,
+.columns .lg-2,
+.columns .lg-3,
+.columns .lg-4,
+.columns .lg-5,
+.columns .lg-6
+{
+	display: block;
+	float: left;
+	box-sizing: border-box;
+}
+.columns .col
+{
+	padding: 0 2em;
+}
+
+.columns [class$='-1']
+{
+	width: 100%;
+}
+.columns [class$='-2']
+{
+	width: 50%;
+}
+.columns [class$='-3']
+{
+	width: 33.333%;
+}
+.columns [class$='-4']
+{
+	width: 25%;
+}
+.columns [class$='-5']
+{
+	width: 20%;
+}
+.columns [class$='-6']
+{
+	width: 16.667%;
+}
+
+
+.content-anchor
+{
+	position: relative;
+	top: -2em;
+}
+
+.b-loader
+{
+	width: 50%;
+	height: 0.5em;
+	margin: 0 auto;
+	padding: 1px;
+	text-align: left;
+	border: solid 1px #ccc;
+	position: relative;
+}
+.b-loader span
+{
+	display: block;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 0%;
+	background: #3810d0;
+	transition: width .5s ease-out;
+}
+
+
+.no-svg .need-svg,
+.svg .no-svg,
+.ie .no-ie,
+.ie .ie-hide
+{
+	display: none;
+}

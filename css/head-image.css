@@ -1,0 +1,51 @@
+.header {
+  display: block;
+  width: 100%;
+  height: 20em;
+  background: url(/img/title-background.jpg);
+  background-size: cover;
+}
+.header .centered {
+  border: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.header .content {
+  position: relative;
+  display: block;
+  max-width: 960px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 1em;
+  text-align: left;
+}
+.header .logotype {
+  margin-right: 2em;
+}
+.header .form,
+.header .name {
+  word-break: break-word;
+  font-weight: 400;
+}
+.header .form {
+  font-size: 75%;
+  margin-bottom: 0;
+  margin-top: 4em;
+}
+.header .name {
+  font-size: 140%;
+  margin-top: 0;
+}
+.header .contacts {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  text-align: right;
+  font-size: 90%;
+}
+.header .contacts .phone {
+  font-weight: bold;
+}

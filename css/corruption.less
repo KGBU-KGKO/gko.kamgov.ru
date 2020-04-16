@@ -1,0 +1,59 @@
+.b-corruption
+{
+	.title
+	{
+		font-size: x-large;
+		font-weight: 400;
+		padding: 0 1.5em;
+		border-bottom: solid 1px #adabab;
+    padding-bottom: 0.25em;		
+	}
+	
+	.left, .right
+	{
+		box-sizing: border-box;
+		float: left;
+		overflow: hidden;
+	}
+	.left { width: 70%; padding-right: 2em; }
+	.right { width: 30%; }
+
+	.article
+	{
+    text-align: justify;
+    text-indent: 2em;
+		
+		h2
+		{
+			font-weight: 300;
+			text-align: center;
+			color: @color;
+		}
+		strong
+		{
+			font-weight: 300;
+		}
+		
+		a { color: @color; }
+	}
+	
+	.relative-links
+	{
+		display: block;
+		overflow: hidden;
+		background: #eee;
+		padding: 1em;
+		
+		a
+		{
+			display: block;
+			color: #1c5b93;
+			margin: 1em 0;
+			text-decoration: none;
+		}
+		a:hover
+		{
+			text-decoration: underline;
+		}
+	}	
+}

@@ -1,0 +1,1251 @@
+@import "carousel.css";
+
+body,
+html {
+    height: 100%
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: Oswald, sans-serif;
+    font-weight: 300
+}
+
+@media screen and (max-width:2400px) {
+    body {
+        font-size: 20px
+    }
+}
+
+@media screen and (max-width:1920px) {
+    body {
+        font-size: 18px
+    }
+}
+
+@media screen and (max-width:1680px) {
+    body {
+        font-size: 16px
+    }
+}
+
+@media screen and (max-width:1024px) {
+    body {
+        font-size: 15px
+    }
+}
+
+@media screen and (max-width:960px) {
+    body {
+        font-size: 14px
+    }
+}
+
+@media screen and (max-width:768px) {
+    body {
+        font-size: 13px
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:767px) {
+    body {
+        font-size: 12px
+    }
+}
+
+@media screen and (max-width:480px) {
+    body {
+        font-size: 11px
+    }
+}
+
+@media screen and (min-width:350px) and (max-width:479px) {
+    body {
+        font-size: 11px
+    }
+}
+
+@media screen and (min-width:240px) and (max-width:349px) {
+    body {
+        font-size: 10px
+    }
+}
+
+.text-left {
+    text-align: left !important
+}
+
+.text-right {
+    text-align: right !important
+}
+
+.text-center {
+    text-align: center !important
+}
+
+.text-justify {
+    text-align: justify !important
+}
+
+.text-indent {
+    text-indent: 1.5em
+}
+
+.pull-left {
+    float: left
+}
+
+.pull-right {
+    float: right
+}
+
+.hidden,
+.hide {
+    display: none
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0
+}
+
+.clearfix {
+    display: block;
+    clear: both;
+    overflow: hidden
+}
+
+.clearfix::after,
+.clearfix::before {
+    content: '';
+    display: table;
+    clear: both
+}
+
+.section .content {
+    display: block;
+    clear: both;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1280px;
+    margin: 3em auto;
+    box-sizing: border-box
+}
+
+.section .row {
+    display: block;
+    float: none;
+    clear: both;
+    overflow: hidden;
+    box-sizing: border-box
+}
+
+.columns .lg-1,
+.columns .lg-2,
+.columns .lg-3,
+.columns .lg-4,
+.columns .lg-5,
+.columns .lg-6,
+.columns .md-1,
+.columns .md-2,
+.columns .md-3,
+.columns .md-4,
+.columns .md-5,
+.columns .sm-1,
+.columns .sm-2,
+.columns .sm-3,
+.columns .sm-4,
+.columns .xs-1,
+.columns .xs-2,
+.columns .xs-3 {
+    display: block;
+    float: left;
+    box-sizing: border-box
+}
+
+.columns .col {
+    padding: 0 2em
+}
+
+.columns [class$='-1'] {
+    width: 100%
+}
+
+.columns [class$='-2'] {
+    width: 50%
+}
+
+.columns [class$='-3'] {
+    width: 33.333%
+}
+
+.columns [class$='-4'] {
+    width: 25%
+}
+
+.columns [class$='-5'] {
+    width: 20%
+}
+
+.columns [class$='-6'] {
+    width: 16.667%
+}
+
+.content-anchor {
+    position: relative;
+    top: -2em
+}
+
+.b-loader {
+    width: 50%;
+    height: .5em;
+    margin: 0 auto;
+    padding: 1px;
+    text-align: left;
+    border: 1px solid #ccc;
+    position: relative
+}
+
+.b-loader span {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 0;
+    background: #3810d0;
+    transition: width .5s ease-out
+}
+
+.ie .ie-hide,
+.ie .no-ie,
+.no-svg .need-svg,
+.svg .no-svg {
+    display: none
+}
+
+@font-face {
+    font-family: icomoon;
+    font-weight: 400;
+    font-style: normal;
+    src: url(/fonts/icomoon.eot?175jal);
+    src: url(/fonts/icomoon.eot?175jal#iefix) format('embedded-opentype'), url(/fonts/icomoon.ttf?175jal) format('truetype'), url(/fonts/icomoon.woff?175jal) format('woff'), url(/fonts/icomoon.svg?175jal#icomoon) format('svg')
+}
+
+.fa {
+    font-family: icomoon !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.fa-phone:before {
+    content: "\e942"
+}
+
+.fa-envelope-open:before {
+    content: "\e945"
+}
+
+.fa-window-close:before {
+    content: "\ea0d"
+}
+
+.fa-arrow-right:before {
+    content: "\ea34"
+}
+
+.fa-arrow-left:before {
+    content: "\ea38"
+}
+
+.fa-asterisk:before {
+    content: "\eae9"
+}
+
+@font-face {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 300;
+    src: local('Oswald Light'), local('Oswald-Light'), url(/fonts/Oswald-Light.ttf) format('truetype');
+    unicode-range: U+0400045F, U+04900491, U+04B004B1, U+2116
+}
+
+@font-face {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 300;
+    src: local('Oswald Light'), local('Oswald-Light'), url(/fonts/Oswald-Light.ttf) format('truetype');
+    unicode-range: U+000000FF, U+0131, U+01520153, U+02BB02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215
+}
+
+@font-face {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oswald Regular'), local('Oswald-Regular'), url(/fonts/Oswald-Regular.ttf) format('truetype');
+    unicode-range: U+0400045F, U+04900491, U+04B004B1, U+2116
+}
+
+@font-face {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oswald Regular'), local('Oswald-Regular'), url(/fonts/Oswald-Regular.ttf) format('truetype');
+    unicode-range: U+000000FF, U+0131, U+01520153, U+02BB02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215
+}
+
+.header {
+    display: block;
+    width: 100%;
+    height: 12em;
+    background: url(/img/title-background.jpg);
+    
+    background-size: 100% 100%;
+}
+
+.header .centered {
+    border: 0;
+    width: 100%;
+    height: 100%;
+    position: relative
+}
+
+.header .content {
+    position: relative;
+    display: block;
+    max-width: 960px;
+    overflow: hidden;
+    background: #fff;
+    background: rgba(255, 255, 255, .6);
+    padding: 1em;
+    text-align: left
+}
+
+.header .logotype {
+    margin-right: 2em
+}
+
+.header .form,
+.header .name {
+    word-break: break-word;
+    
+    font-weight: 400
+    
+}
+
+.header .form {
+    font-size: 75%;
+    margin-bottom: 0 ;
+    margin-top: 0 
+}
+
+.header .name {
+    font-size: 140%;
+    margin-bottom: 0;
+    margin-top: 0
+}
+
+.header .contacts {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    text-align: right;
+    font-size: 90%
+}
+
+.header .contacts a {
+    color: #1a5773;
+    text-decoration: none
+}
+
+.header .contacts .phone {
+    font-weight: 700;
+    font-size: 120%
+}
+
+.header .contacts .phone a {
+    color: #23769d
+}
+
+.header .contacts .email a:hover {
+    text-decoration: underline
+}
+
+.main-menu {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    border-bottom: solid 2px #1a5773;
+    line-height: 1;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, .22);
+    background: #f0f0f0;
+    background: -moz-linear-gradient(top, #f0f0f0 0, #e0e0e0 100%);
+    background: -webkit-linear-gradient(top, #f0f0f0 0, #e0e0e0 100%);
+    background: linear-gradient(to bottom, #f0f0f0 0, #e0e0e0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#e0e0e0', GradientType=0)
+}
+
+.main-menu .menu {
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    clear: both
+}
+
+.main-menu .menu li {
+    position: relative;
+    float: left;
+    padding: 1em 2em;
+    line-height: 1
+}
+
+.main-menu .menu li.active,
+.main-menu .menu li:hover {
+    background: #e0e0e0;
+    background: -moz-linear-gradient(bottom, #f0f0f0 0, #e0e0e0 100%);
+    background: -webkit-linear-gradient(bottom, #f0f0f0 0, #e0e0e0 100%);
+    background: linear-gradient(to top, #f0f0f0 0, #e0e0e0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e0e0e0', endColorstr='#f0f0f0', GradientType=0)
+}
+
+.main-menu .menu li.active a,
+.main-menu .menu li:hover a {
+    color: #2d96c6
+}
+
+.main-menu .menu a {
+    color: #1a5773;
+    text-decoration: none;
+    font-weight: 400
+}
+
+.main-menu .submenu {
+    z-index: 100;
+    display: none;
+    position: absolute;
+    overflow: hidden;
+    list-style: none;
+    margin: 1em 1em 1em -2em;
+    padding: 0;
+    margin-right: 0;
+    top: 2.25em;
+    width: 18em;
+    background: #f0f0f0;
+    box-shadow: 2px 2px 7px
+}
+
+.main-menu .submenu li {
+    display: block;
+    padding: 1em 1em 1em 2em;
+    line-height: 1.2;
+    width: 16em;
+    text-align: left
+}
+
+.b-company {
+    font-family: 'Arial Narrow';
+    font-size: 110%
+}
+
+.b-company .title {
+    font-size: x-large;
+    font-weight: 400;
+    font-family: Oswald
+}
+
+.b-company ol {
+    margin: 0;
+    padding: 0
+}
+
+.b-company .button {
+    background: #fff;
+    background: -webkit-linear-gradient(top, #fff, #f2f2f2) #fff;
+    background: -moz-linear-gradient(top, #fff, #f2f2f2) #fff;
+    background: -ms-linear-gradient(top, #fff, #f2f2f2) #fff;
+    background: -o-linear-gradient(top, #fff, #f2f2f2) #fff;
+    background: linear-gradient(to bottom, #fff, #f2f2f2) #fff;
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 3px #666;
+    -moz-box-shadow: 0 1px 3px #666;
+    box-shadow: 0 1px 3px #666;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none
+}
+
+.b-company .button:hover {
+    background: #f5f5f5;
+    background-image: -webkit-linear-gradient(top, #f5f5f5, #dedede);
+    background-image: -moz-linear-gradient(top, #f5f5f5, #dedede);
+    background-image: -ms-linear-gradient(top, #f5f5f5, #dedede);
+    background-image: -o-linear-gradient(top, #f5f5f5, #dedede);
+    background-image: linear-gradient(to bottom, #f5f5f5, #dedede);
+    text-decoration: none
+}
+
+.b-company .button:active {
+    background: #dedede;
+    box-shadow: none
+}
+
+.b-company .worktime {
+    border: 0;
+    border-radius: 4px;
+    overflow: hidden;
+    border-collapse: collapse;
+    width: 100%
+}
+
+.b-company .worktime td {
+    border: 0;
+    text-align: center;
+    padding: .5em .25em
+}
+
+.b-company .worktime td:first-child {
+    text-align: left
+}
+
+.b-company .worktime tr:nth-child(2n+1) td:first-child {
+    text-align: right
+}
+
+.b-company .worktime .hdr td {
+    background: #e2f3ea
+}
+
+.b-company .worktime .mans td {
+    background: #eaf2fb
+}
+
+.b-company .worktime .womans td {
+    background: #fcf8f8
+}
+
+.b-structure .title {
+    font-size: x-large;
+    font-weight: 400;
+    padding: 0 1.5em
+}
+
+.b-structure .row {
+    margin-bottom: 1em
+}
+
+.b-structure .centered-title {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    padding-bottom: .5em;
+    font-size: 105%;
+    font-weight: 300;
+    margin: 3em 2em;
+    margin-bottom: 0
+}
+
+.b-structure .centered-title span {
+    display: inline-block;
+    background: #fff;
+    padding: 0 1em
+}
+
+.b-structure .centered-title::before {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 50%;
+    margin-top: -4px;
+    content: ' ';
+    width: 100%;
+    line-height: 0;
+    height: 0;
+    border-top: 1px solid #b5b5b5
+}
+
+.b-structure .employee {
+    padding-top: .5em;
+    padding-bottom: .5em
+}
+
+.b-structure .employee .name {
+    margin: 0;
+    font-size: 120%
+}
+
+.b-structure .employee .role {
+    margin: 0;
+    font-size: 95%
+}
+
+.b-structure .employee .showmore span {
+    border-bottom: 1px dotted;
+    cursor: pointer;
+    color: #1c5b93;
+    font-size: 85%
+}
+
+.b-structure .employee .simpleinfo {
+    font-size: 90%;
+    display: none;
+    position: relative;
+    padding-top: 1.5em;
+    margin-top: 1em;
+    border-top: 1px dotted #b5b5b5
+}
+
+.b-structure .employee .simpleinfo .close {
+    font-size: 85%;
+    position: absolute;
+    right: .5em;
+    top: .25em
+}
+
+.b-structure .employee .simpleinfo .close span {
+    border-bottom: 1px dotted;
+    cursor: pointer;
+    color: #1c5b93
+}
+
+.b-structure .employee.expanded {
+    background: #d5f1f3
+}
+
+.b-structure .employee.expanded .simpleinfo {
+    display: block
+}
+
+.b-structure .employee.expanded .showmore {
+    display: none
+}
+
+.b-documents {
+    display: block;
+    clear: both;
+    overflow: hidden
+}
+
+.b-documents .title {
+    font-size: x-large;
+    font-weight: 400;
+    padding: 0 1.5em;
+    position: relative
+}
+
+.b-documents .title .button {
+    position: absolute;
+    right: 11em;
+    text-decoration: none;
+    color: #1c5874
+}
+
+.b-documents .title .button:hover {
+    text-decoration: underline
+}
+
+.b-documents::after,
+.b-documents::before {
+    content: '';
+    display: table;
+    clear: both
+}
+
+.b-documents-head {
+    font-weight: 600;
+    font-size: 120%;
+    color: #9a9a9a;
+    padding-left: .5em
+}
+
+.b-documents-document {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 25%;
+    padding: 1em;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 1s
+}
+
+.b-documents-document:hover {
+    background: #d5f1f3
+}
+
+.b-documents-icon {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 4px
+}
+
+.b-documents-icon:active {
+    box-shadow: none
+}
+
+.b-documents-caption {
+    font-size: 90%
+}
+
+.b-documents-popup {
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+.b-documents-popup-content {
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1280px;
+    margin: 2em auto;
+    padding: 2em;
+    background: #fff;
+    box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, .41);
+    text-align: left
+}
+
+.b-documents-image {
+    position: relative;
+    width: 50%;
+    height: auto;
+    padding-left: 2em;
+    user-select: none
+}
+
+.b-documents-text {
+    text-align: justify;
+    width: 50%
+}
+
+.b-documents-text-name {
+    text-align: center;
+    text-decoration: underline
+}
+
+.b-documents-popup-close,
+.b-documents-popup-download {
+    color: #000;
+    cursor: pointer;
+    transition: color .4s, transform .4s
+}
+
+.b-documents-popup-close:hover,
+.b-documents-popup-download:hover {
+    color: orange;
+    transform: scale(1.4) translateX(-.25em)
+}
+
+.b-documents-popup-download {
+    position: absolute;
+    left: 45%
+}
+
+.b-documents-title {
+    font-family: Playfair;
+    text-align: center
+}
+
+.b-documents-requisites {
+    text-align: center;
+    font-size: 120%
+}
+
+.b-documents-footer {
+    display: block;
+    width: 100%
+}
+
+.b-documents-footer span {
+    box-sizing: border-box;
+    width: 25%
+}
+
+.b-files {
+    display: block;
+    clear: both;
+    overflow: hidden;
+    margin-top: 2em
+}
+
+.b-files::after,
+.b-files::before {
+    content: '';
+    display: table;
+    clear: both
+}
+
+.b-files-document {
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 1em;
+    float: left
+}
+
+.b-file-item {
+    color: #000;
+    text-decoration: none
+}
+
+.b-file-icon {
+    width: auto;
+    height: 4em;
+    margin-right: 2em;
+    float: left;
+    border: 0
+}
+
+.b-file-title {
+    font-size: 110%;
+    font-weight: 300
+}
+
+.b-file-meta {
+    clear: left;
+    font-size: 90%;
+    color: #888
+}
+
+.b-feedback .title {
+    font-size: x-large;
+    font-weight: 400;
+    padding: 0 1.5em .25em;
+    border-bottom: solid 1px #adabab
+}
+
+.b-feedback .required-note {
+    font-size: 90%
+}
+
+.b-feedback .required-note span {
+    color: red
+}
+
+.b-feedback .information-link {
+    color: #1c5b93;
+    border-bottom: dotted 1px;
+    cursor: pointer;
+    font-size: 90%
+}
+
+.b-feedback .information-block {
+    overflow: hidden;
+    display: none;
+    padding: 1em;
+    font-size: 100%;
+    background: #eee
+}
+
+.b-feedback .left,
+.b-feedback .right {
+    box-sizing: border-box;
+    float: left;
+    overflow: hidden
+}
+
+.b-feedback .left {
+    width: 70%;
+    padding-right: 1em
+}
+
+.b-feedback .right {
+    width: 30%
+}
+
+.b-feedback .relative-links {
+    display: block;
+    overflow: hidden;
+    background: #eee;
+    padding: 1em
+}
+
+.b-feedback .relative-links a {
+    display: block;
+    color: #1c5b93;
+    margin: 1em 0;
+    text-decoration: none
+}
+
+.b-feedback .relative-links a:hover {
+    text-decoration: underline
+}
+
+.form input[type=text],
+.form textarea {
+    border: 1px solid #1c5b93;
+    padding: .5em;
+    width: 20em
+}
+
+.form textarea {
+    height: 10em
+}
+
+.form button {
+    font-size: 100%;
+    font-family: Oswald;
+    font-weight: 300
+}
+
+.form .group {
+    padding: 1em 0
+}
+
+.form .group .label {
+    width: 10em;
+    display: inline-block;
+    vertical-align: top
+}
+
+.form .group .field-error-text {
+    display: none;
+    color: red;
+    margin-left: 10.15em;
+    padding: .5em 0
+}
+
+.form .group.has-error .field-error-text {
+    display: inherit
+}
+
+.form .group.has-error input[type=text],
+.form .group.has-error textarea {
+    border-color: red;
+    outline-color: red
+}
+
+.form .group.required label::after {
+    display: inline;
+    content: '*';
+    color: red;
+    margin-left: .2em
+}
+
+.form .group .file-group input[type=file] {
+    display: block;
+    width: 0;
+    height: 0
+}
+
+.form .group .file-group input[type=file]:focus {
+    outline: 0
+}
+
+.form .group .file-group .note {
+    font-size: 90%;
+    padding: 1em 0;
+    width: 50%;
+    min-width: 220px
+}
+
+.form .radio-group label {
+    display: block;
+    padding: .5em 0;
+    margin-left: 10em
+}
+
+.form .btn {
+    display: inline-block;
+    padding: .25em 1em;
+    text-align: center;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #1f628d;
+    text-decoration: none
+}
+
+.form .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none
+}
+
+.form .btn:active {
+    background: #3498db
+}
+
+.form .btn:disabled {
+    background: #ccc;
+    border-color: #888
+}
+
+.form .submit-group {
+    text-align: right;
+    margin: 2em 0;
+    padding-top: 2em;
+    border-top: dotted 1px #000
+}
+
+.form .message.success {
+    color: green;
+    border-left: solid 2px green;
+    padding: 1em
+}
+
+.form .message.has-error {
+    color: red;
+    border-left: solid 2px red;
+    padding: 1em
+}
+
+.b-contacts .title {
+    font-size: x-large;
+    font-weight: 400;
+    padding: 0 1.5em .25em;
+    border-bottom: solid 1px #adabab
+}
+
+.b-contacts .left,
+.b-contacts .right {
+    box-sizing: border-box;
+    float: left;
+    overflow: hidden
+}
+
+.b-contacts .left {
+    width: 70%;
+    padding-right: 2em
+}
+
+.b-contacts .right {
+    width: 30%
+}
+
+.b-contacts .fullinfo dl {
+    display: block;
+    overflow: hidden;
+    clear: both
+}
+
+.b-contacts .fullinfo dl dd,
+.b-contacts .fullinfo dl dt {
+    float: left;
+    margin: 1em 0;
+    box-sizing: border-box
+}
+
+.b-contacts .fullinfo dl dt {
+    font-weight: 400;
+    clear: left;
+    width: 15em;
+    padding-right: 1em
+}
+
+.b-contacts .fullinfo dl dd {
+    clear: right
+}
+
+.b-contacts .requisites {
+    display: block;
+    overflow: hidden;
+    background: #eee;
+    padding: 1em
+}
+
+.b-contacts .requisites dl {
+    display: block;
+    overflow: hidden;
+    clear: both
+}
+
+.b-contacts .requisites dl dd,
+.b-contacts .requisites dl dt {
+    float: left;
+    margin: .25em 0;
+    box-sizing: border-box
+}
+
+.b-contacts .requisites dl dt {
+    font-weight: 400;
+    clear: left;
+    width: 50%;
+    padding-right: 1em
+}
+
+.b-contacts .requisites dl dd {
+    clear: right
+}
+
+.b-contacts .requisites dl dd::after {
+    content: attr(hint);
+    display: none;
+    position: absolute;
+    background: #000;
+    background: rgba(0, 0, 0, .7);
+    color: #fff
+}
+
+.b-contacts .requisites dl dd:hover::after {
+    display: block
+}
+
+.b-corruption .title {
+    font-size: x-Large;
+    font-weight: 800;
+    padding: 0 1.5em .25em;
+    border-bottom: solid 1px #adabab
+}
+
+.b-corruption .left,
+.b-corruption .right {
+    box-sizing: border-box;
+    float: left;
+    overflow: hidden
+}
+
+.b-corruption .left {
+    width: 70%;
+    padding-right: 2em
+}
+
+.b-corruption .right {
+    width: 30%
+}
+
+.b-corruption .article {
+    text-align: justify;
+    text-indent: 2em
+}
+
+.b-corruption .article h2 {
+    font-weight: 300;
+    text-align: center;
+    color: #1a5773
+}
+
+.b-corruption .article strong {
+    font-weight: 300
+}
+
+.b-corruption .article a {
+    color: #1a5773
+}
+
+.b-corruption .relative-links {
+    display: block;
+    overflow: hidden;
+    background: #eee;
+    padding: 1em
+}
+
+.b-corruption .relative-links a {
+    display: block;
+    color: #1c5b93;
+    margin: 1em 0;
+    text-decoration: none
+}
+
+.b-corruption .relative-links a:hover {
+    text-decoration: underline
+}
+
+
+.section.footer {
+    background: #f3f3f3;
+    box-shadow: inset 0 0 13px 0 rgba(0, 0, 0, .34)
+}
+
+.section.footer .content {
+    position: relative;
+    font-size: 70%;
+    height: 6em;
+    margin-bottom: 0;
+    color: #000
+}
+
+.section.footer a {
+    color: #000;
+    text-decoration: none
+}
+
+.section.footer a:hover {
+    text-decoration: underline
+}
+
+.section.footer .bottom-line {
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%
+}
+
+.news-item {
+    text-align: justify;
+    margin: 0px;
+	
+}
+.news-item .news-link {
+    overflow: hidden;
+	display: inline;
+}
+.news-item .news-link a{
+    color: #1c5b93;
+	margin: 0px;
+    text-decoration: none
+}
+.news-item .news-link a:hover{
+	text-decoration: underline
+}
+
+.news-item .date {
+    font-size: 80%;
+    color: #737272;
+}
+ 
+.news-item .descr {
+    
+}
+
+#accordion > h3 {
+    padding: 10px;
+    font-size: larger;
+    font-weight: 400;
+    font-family: Oswald;
+}
+#accordion {
+    font-size: 100%;
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+}

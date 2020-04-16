@@ -1,0 +1,118 @@
+.b-structure 
+{
+	.title
+	{
+		font-size: x-large;
+		font-weight: 400;
+		padding: 0 1.5em;
+	}
+	
+	.row
+	{
+		margin-bottom: 1em;
+	}
+
+	.centered-title
+	{
+		overflow: hidden;
+		position: relative;
+		text-align: center;
+		padding-bottom: 0.5em;
+		font-size: 105%;
+		font-weight: 300;
+		margin: 3em 2em;
+		margin-bottom: 0;
+		
+		span
+		{
+			display: inline-block;
+			background: #fff;
+			padding: 0 1em;
+		}
+		
+		&::before
+		{
+			position: absolute;
+			z-index: -1;
+			left: 0;
+			top: 50%;
+			margin-top: -4px;
+			content: ' ';
+			width: 100%;
+			line-height: 0;
+			height: 0;
+			border-top: 1px solid #b5b5b5;	
+		}
+	}
+	
+	.employee
+	{
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+		
+		.name
+		{
+			margin: 0;
+			font-size: 120%;	
+		}
+		.role
+		{
+			margin: 0;
+			font-size: 95%;
+		}
+		
+		.showmore
+		{
+			span
+			{
+				border-bottom: 1px dotted;
+				cursor: pointer;
+				color: #1c5b93;
+				font-size: 85%;
+			}		
+		}
+		
+		.simpleinfo
+		{
+			font-size: 90%;
+			display: none;
+			position: relative;
+			padding-top: 1em;
+			margin-top: 1em;
+			border-top: 1px dotted #b5b5b5;				
+			
+			.close
+			{
+				font-size: 85%;
+				position: absolute;
+				right: 0.5em;
+				top: 1em;
+				
+				span
+				{
+					border-bottom: 1px dotted;
+					cursor: pointer;
+					color: #1c5b93;
+				}				
+			}			
+		} /* simple info */
+
+		
+		&.expanded
+		{
+			background: #d5f1f3;
+			
+			.simpleinfo
+			{
+				display: block;
+			}
+			.showmore
+			{
+				display: none;
+			}			
+		}
+		
+	} /* employee */
+}
+
+
