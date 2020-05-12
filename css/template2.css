@@ -1249,3 +1249,9 @@ body {
     font-family: Oswald, sans-serif;
     font-weight: 300;
 }
+
+.img-dispute {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
