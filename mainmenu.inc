@@ -18,7 +18,8 @@
 				<li><a href="analityca.php">Аналитические материалы</a></li>
 				<li><a href="answer.php">Разъяснения</a></li>
 				<li><a href="faq.php">Часто задаваемые вопросы</a></li>	
-				<li><a href="dispute.php">Рассмотрение споров</a></li>		
+				<li><a href="dispute.php">Рассмотрение споров</a></li>
+				<li><a href="HotLine.php">Горячая линия</a></li>		
 			</ul>
 		</li>
 		<li><a href="news.php">НОВОСТИ</a></li>
