@@ -1255,3 +1255,12 @@ body {
     display: block;
     margin: 0 auto;
 }
+
+.sendPulseLink {
+    text-decoration: none;
+    color: #1c5b93;
+}
+
+.sendPulseLink:hover {
+    text-decoration: underline;
+}
