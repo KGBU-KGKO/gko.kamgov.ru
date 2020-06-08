@@ -349,7 +349,7 @@ body {
 .header .form {
     font-size: 75%;
     margin-bottom: 0 ;
-    margin-top: 0 
+    margin-top: 30px; 
 }
 
 .header .name {
