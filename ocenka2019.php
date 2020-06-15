@@ -43,40 +43,7 @@
 					<li> 2. почтовым отправлением в адрес КГБУ «КГКО»: 683032, Россия, Петропавловск-Камчатский, ул. Пограничная, 19.</li>
 				</ul>
 				<p>Рекомендуемая форма Замечаний к промежуточным отчетным документам</a></p>
-
-
-
-
-				<!--<ul>
-					<li>Приложение 1. Исходные данные
-						<ul>
-							<li><a href="/files/ocenka2019/Pril_1-1.zip">	Приложение 1.1 Копия решения о ГКО</a>&nbsp&nbsp&nbsp&nbsp428.30 Кб | MD5: AAD8A27E255A1D3C3FF9229283292FE4</li>
-							<li><a href="/files/ocenka2019/Pril_1-2.zip">	Приложение 1.2 Перечень объектов недвижимости</a>&nbsp&nbsp&nbsp&nbsp3631.12 Кб | MD5: F1613ED339BB0C5B7809C8BE566CC3A8</li>
-							<li><a href="/files/ocenka2019/Pril_1-3.zip">	Приложение 1.3 Результаты сбора и обработки информации</a>&nbsp&nbsp&nbsp&nbsp18648.62 Кб | MD5: B1D8A2194A12E4D63D951BEC9BC129E8</li>
-							<li><a href="/files/ocenka2019/Pril_1-4.zip">	Приложение 1.4 Информация о характеристиках ОН</a>&nbsp&nbsp&nbsp&nbsp2261.52 Кб | MD5: 68D745EB66BEE9D282E3469A8F259349</li>
-							<li><a href="/files/ocenka2019/Pril_1-5.zip">	Приложение 1.5 Организационная схема выполнения работ</a>&nbsp&nbsp&nbsp&nbsp354.79 Кб | MD5: 68403E7E70248564E4981B5D848E17E9</li>
-							<li><a href="/files/ocenka2019/Pril_1-6.zip">	Приложение 1.6 Результаты обработки перечня</a>&nbsp&nbsp&nbsp&nbsp35360.41 Кб | MD5: CA048DC72DDB4F2DE1650E0E910CD085</li>
-							<li><a href="/files/ocenka2019/Pril_1-7.zip">	Приложение 1.7 Графическая часть перечня ОН</a>&nbsp&nbsp&nbsp&nbsp4917.49 Кб | MD5: 969CEE78A7D76D6F7AE11AD3425607C6</li>
-							<li><a href="/files/ocenka2019/Pril_1-8.zip">	Приложение 1.8 Результаты сбора информации о рынке ОН</a>&nbsp&nbsp&nbsp&nbsp68932.00 Кб | MD5: BA69BFE44710C509778E75BCE9C56DEF</li>
-						</ul> 
-					</li>
-					<li>Приложение 2. Результаты определения КС
-						<ul>
-							<li><a href="/files/ocenka2019/Pril_2-1.zip">	Приложение 2.1 Сведения о ценообразующих факторах</a>&nbsp&nbsp&nbsp&nbsp610.29 Кб | MD5: D9BEB087E140EAB30AD2418BE7A9E641</li>
-							<li><a href="/files/ocenka2019/Pril_2-2.zip">	Приложение 2.2 Результаты оценочного зонирования</a>&nbsp&nbsp&nbsp&nbsp427.54 Кб | MD5: B516B819DEF5E5763E5D722B04DFF058</li>
-							<li><a href="/files/ocenka2019/Pril_2-3.zip">	Приложение 2.3 Сведения о способе определения КС</a>&nbsp&nbsp&nbsp&nbsp645.99 Кб | MD5: A0325961BECD9F5E974E6BF65105EC63</li>
-							<li><a href="/files/ocenka2019/Pril_2-4.zip">	Приложение 2.4 Обоснование использования моделей с описанием их структуры</a>&nbsp&nbsp&nbsp&nbsp76.6 Кб | MD5: 235529530DD00468966EAA21F7EF8664</li>
-							<li><a href="/files/ocenka2019/Pril_2-5.zip">	Приложение 2.5 Сведения о велечине КС ОН</a>&nbsp&nbsp&nbsp&nbsp241.21 Кб | MD5: 7D9DEC73BC79CE5016C114EADD53AFE2</li>
-							<li><a href="/files/ocenka2019/Pril_2-6.zip">	Приложение 2.6 Определение КС моделей</a>&nbsp&nbsp&nbsp&nbsp11918.18 Кб | MD5: 4DC8140D5F8ABF6E7EB8F2DDEAED3C73</li>
-						</ul> 
-					</li>
-					<li><a href="/files/ocenka2019/Pril_3.zip">Приложение 3. Сведения о результатах определения КС индивидуально</a>&nbsp&nbsp&nbsp&nbsp22.86 Кб | MD5: 2782042F58594EFAC639DF0F600CAFEB</li>
-				    <li><a href="/files/ocenka2019/Pril_4.zip">Приложение 4. Справка о замечаниях</a>&nbsp&nbsp&nbsp&nbsp0.31 Кб | MD5: A667128B409F93EA3E2F35C42464E471</li>
-				    <li><a href="/files/ocenka2019/Pril_5.zip">Приложение 5. Файлы в формате XML</a>&nbsp&nbsp&nbsp&nbsp89.68 Кб | MD5: E7DA600964B0A92B31E0E2C1BE409DDC</li>
-				    <li><a href="/files/ocenka2019/Pril_6.zip">Приложение 6. Сведения и материалы, доступ к которым ограничен</a>&nbsp&nbsp&nbsp&nbsp16.33 Кб | MD5: 3E09F4CE3307EC4878F2D8B3FF7C49E4</li>
-				</ul> -->
-			</div>		
-				
+			</div>			
 	</div>
 </div>
 
