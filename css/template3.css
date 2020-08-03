@@ -1,0 +1,40 @@
+.header .contacts {
+    top: 1em;
+}
+
+.header .contacts .email {
+    margin-top: 5px;
+}
+
+@media (max-width: 576px) {
+    .btn {
+        margin-top: 10px !important;
+    }
+    .lead {
+        font-size: 15px;
+    }
+    .display-4 {
+        font-size: 18px;
+    }
+
+    .header .contacts {
+        font-size: 55%;
+    }
+    .header .form {
+        font-size: 50%;
+    }
+    .header .name {
+        font-size: 90%;
+    }
+    .b-corruption .title {
+        font-size: 170%;
+    }
+    .b-corruption .left {
+        width: 98%;
+        padding-right: 2em;
+     padding-left: 2em;
+    }
+    .submenu_gko {
+        left: -1.5em
+    }
+}
