@@ -80,7 +80,7 @@ var Jum = document.getElementById("collapse");
 var xhr = new XMLHttpRequest();
 document.getElementById("notify").style.display = "block";
 Jum.style.display = "none";
-xhr.open('GET', 'js/realty4.json');
+xhr.open('GET', 'js/realty6.json');
 xhr.responseType = 'json';
 xhr.send();
 xhr.onload = function() {

@@ -1,4 +1,6 @@
-﻿<? include 'site_top.inc'; ?>
+﻿					    	<li><a href=""></a> Прил 2.2. Результаты оценочного зонирования</li>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<? include 'site_top.inc'; ?>
 <? include 'header.inc'; ?>
 <? include 'mainmenu.inc'; ?>
 <script>document.title += ' - Государственная кадастровая оценка'</script>
@@ -15,6 +17,45 @@
 			</ul>
 			<p><a href="files/ocenka2020/GKO_01-2020.zip">Промежуточный отчет №1-2020</a></p>
 			<p><a href="files/ocenka2020/GKO_01-2020.zip.sig">Электронная подпись отчёта</a></p>
+
+			<p>
+			  <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+			    Промежуточный отчётный документ по структуре
+			  </button>
+			</p>
+			<div class="collapse" id="collapseExample">
+			  <div class="card card-body">
+			    <ul>
+			    	<li><a href="files/ocenka2020/ТОМ 1. Общая часть (ГКО 2020).docx">ТОМ 1. Общая часть (ГКО 2020)</a></li>
+			    	<li><a href="files/ocenka2020/ТОМ 2. ЗУ (ГКО 2020).docx">ТОМ 2. ЗУ (ГКО 2020)</a></li>
+			    	<li><a href="files/ocenka2020/ТОМ 3. ОКС (ГКО 2020).docx">ТОМ 3. ОКС (ГКО 2020)</a></li>
+			    	<li>Приложение 1.</li>
+				    	<ul>
+				    		<li><a href="files/ocenka2020/Прил 1.1. Копия решения о ГКО.zip">Приложение 1.1. Копия решения о ГКО</a></li>
+					    	<li><a href="files/ocenka2020/Прил 1.2. Перечень ОН, подлежащих ГКО.zip">Приложение 1.2. Перечень ОН, подлежащих ГКО</a></li>
+					    	<li><a href="files/ocenka2020/Прил 1.3. Результаты сбора и обработки информации.zip">Приложение 1.3. Результаты сбора и обработки информации</a> </li>
+					    	<li><a href="files/ocenka2020/Прил 1.4. Результаты обработки перечня.zip">Приложение 1.4. Результаты обработки перечня</a></li>
+					    	<li>Приложение 1.5. Согласование ВИ ОН</li>
+					    	<li><a href="files/ocenka2020/Прил 1.6. Результаты сбора рынка ОН.zip">Приложение 1.6. Результаты сбора рынка ОН</a></li>
+					    	<li>Приложение 1.7. Исходная информация для ЦОФ</li>
+					    	<li><a href="files/ocenka2020/Прил 1.8. Организационная схема.zip">Приложение 1.8. Организационная схема</a></li>
+				    	</ul>
+			    	<li>Приложение 2.</li>
+				    	<ul>
+				    		<li><a href="files/ocenka2020/Прил 2.1. Сведения о ЦОФ.zip">Приложение 2.1. Сведения о ЦОФ</a></li>
+					    	<li><a href="files/ocenka2020/Прил 2.3. Результаты группировки ОН.zip">Приложение 2.3. Результаты группировки ОН</a></li>
+					    	<li><a href="files/ocenka2020/Прил 2.4. Сведения о способе определения КС.zip">Приложение 2.4. Сведения о способе определения КС</a></li>
+					    	<li><a href="files/ocenka2020/Прил 2.5. Обоснование использования моделей.zip">Приложение 2.5. Обоснование использования моделей</a></li>
+					    	<li><a href="files/ocenka2020/Прил 2.6. Определение КС моделей.zip">Приложение 2.6. Определение КС моделей</a></li>
+					    	<li><a href="files/ocenka2020/Прил 2.7. Сведения о величине КС ОН.zip">Приложение 2.7. Сведения о величине КС ОН</a></li>
+				    	</ul>
+			    	<li><a href="files/ocenka2020/Прил 3. Сведения о рез-тах опр-ния КС индивидуально.zip">Приложение 3. Сведения о рез-тах опр-ния КС индивидуально</a></li>
+			    	<li><a href="files/ocenka2020/Прил 4. Справка о замечаниях к ПОД.zip">Приложение 4. Справка о замечаниях к ПОД</a></li>
+			    	<li><a href="files/ocenka2020/Прил 5. Файлы в формате XML.zip">Приложение 5. Файлы в формате XML</a></li>
+			    	<li><a href="files/ocenka2020/Прил 6. Сведения и материалы, доступ к которым ограничен.zip">Приложение 6. Сведения и материалы, доступ к которым ограничен</a></li>
+			    </ul>
+			  </div>
+			</div>
 				
 			<p><b>Порядок предоставления замечаний к Промежуточным отчетным документам:</b></p>
 			<p>Дата окончания приема замечаний к Промежуточным отчетным документам – 16.09.2020.</p>
@@ -32,14 +73,17 @@
 			<p>Замечания к промежуточным отчетным документам, не соответствующие требованиям, установленным статьей 14 Федерального закона о кадастровой оценке, не подлежат рассмотрению.</p>
 			<p>Иная форма представления Замечаний к промежуточным отчетным документам заинтересованными лицами (в том числе предоставление замечаний к Промежуточным отчетным документам в Росреестр) действующим законодательством не предусмотрена.</p>
 			<p><b>Замечания к промежуточным отчетным документам принимаются следующими способами:</b></p>
-			<ol>
+			<ul>
 				<li>Лично по адресу: 683032, Россия, Петропавловск-Камчатский, ул. Пограничная, 19 (2 этаж);</li>
 				<li>в форме электронного документа, заверенного электронной цифровой подписью заявителя на электронный адрес: gko@kamgov.ru;</li>
 				<li>почтовым отправлением в адрес КГБУ «КГКО»: 683032, Россия, Петропавловск-Камчатский, ул. Пограничная, 19.</li>
-			</ol>
+			</ul>
 			<p>Информация о требованиях к форме Замечаний, способах подачи, а также примерная форма Замечаний к промежуточным отчетным документам размещена на сайте КГБУ «КГКО» в разделе «Деятельность».</p>
 		</div>
 	</div>
 </div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 <? include 'footer.inc'; ?>
 <? include 'site_bottom.inc'; ?>
