@@ -22,7 +22,7 @@
 			<!-- Carousel items -->
 			<div class="carousel-inner">
 			    <div class="active item"><a href="/files/Declaracia.rar"><img src="/img/slide05.jpg"></a></div>
-				<div class="item"><a href="http://roscadastr.com/map"><img src="/img/slide01.jpg"></a></div>
+				<div class="item"><a href="https://pkk.rosreestr.ru/#/search/53.05640837708139,158.74126790720857/12/@6mmb5wv9"><img src="/img/slide01.jpg"></a></div>
 				<div class="item"><a href="https://rosreestr.ru/site/activity/kadastrovaya-otsenka/"><img src="/img/slide02.jpg"></a></div>
 				<!--<div class="item"><a href="https://rosreestr.ru/site/open-service/publichnaya-oferta/"><img src="/img/slide03.jpg"></a></div>-->
 				<div class="item"><a href="https://rosreestr.ru/wps/portal/cc_ib_opendata"><img src="/img/slide04.jpg"></a></div>

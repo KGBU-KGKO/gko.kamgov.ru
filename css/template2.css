@@ -1160,6 +1160,12 @@ body {
     color: #1a5773
 }
 
+.b-corruption .news h2 {
+    font-weight: 300;
+    text-align: left;
+    color: #1a5773
+}
+
 .b-corruption .article strong {
     font-weight: 300
 }

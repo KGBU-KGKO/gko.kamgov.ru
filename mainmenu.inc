@@ -13,10 +13,11 @@
 			<a>ДЕЯТЕЛЬНОСТЬ</a>
 			<ul class="submenu submenu_gko">
 				<li><a href="ocenka.php">Государственная кадастровая оценка</a></li>
-				<li><a href="remarks.php">Замечания</a></li>
 				<li><a href="answer.php">Разъяснения</a></li>
+				<li><a href="mistakes.php">Обращения об исправлении ошибок</a></li>
+				<li><a href="new-real-estate.php">Акты об определении кадастровой стоимости</a></li>
 				<li><a href="dispute.php">Рассмотрение споров</a></li>
-				<li><a href="HotLine.php">По вопросам ГКО</a></li>
+				<li><a href="HotLine.php">Горячая линия</a></li>
 				<li><a href="presentations.php">Презентации</a></li>
 				<li><a href="analityca.php">Аналитические материалы</a></li>
 				<li><a href="utd.php">Учётно-техническая документация</a></li>
