@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru" id="modernizrcom" class="no-js">
 <head>
-
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<title>КГБУ Камчатская государственная кадастровая оценка</title>
@@ -16,9 +15,10 @@
 	<meta property="og:image:width" content="640" />
 	<meta property="og:image:height" content="480" />
 	
+
 	<link rel="stylesheet"  href="/css/jquery-ui.css"/>
 	<link rel="stylesheet"  href="/css/template2.css"/>
-	<!--link rel="stylesheet"  href="/css/font-awesome.min.css"/-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 	<script>$=function(a){$.h.push(a)};$.h=[];$$=$</script>
 </head>
 <body>

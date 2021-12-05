@@ -1,4 +1,5 @@
-﻿<? include 'site_top.inc'; ?>
+﻿	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<? include 'site_top.inc'; ?>
 <? include 'header.inc'; ?>
 <? include 'mainmenu.inc'; ?>
 <script>document.title += ' - Новости'</script>
@@ -10,7 +11,7 @@
 	<div class="content b-corruption">
 		<h1 class="title">ДЕКЛАРАЦИЯ</h1>
 				
-			<div class="article" width=80%>
+			<div class="article left" width=80%>
 			<p>В целях уточнения характеристик объекта недвижимости правообладатель вправе подать в Краевое государственное бюджетное учреждение «Камчатская государственная кадастровая оценка» (далее - КГБУ «КГКО») декларацию о характеристиках объекта недвижимости (далее – Декларация).</p>
 			<p><b>СПОСОБЫ ПОДАЧИ ДЕКЛАРАЦИИ</b></p>
 			<p>Вы можете подать Декларацию следующими способами:</p>
@@ -118,9 +119,14 @@
 				<p>По итогам проведения анализа состояния почвы выдается соответствующее заключение, включающее в себя анализ показателей химического, физического, биологического, санитарно-бактериологического состояния почв, а также эрозионного воздействия на почвы. Данное заключение прикладывается к Декларации в качестве подтверждения указанных в ней сведений.</p>
 				</div>
 			</div>	
-	</div>
+		</div>
+		<div class="right">
+			<div class="relative-links">
+				<a href="files/Decl/01-kv-2021_Declaracii.doc">Сведения об объектах недвижимости, в отношении которых рассмотрены декларации 1 квартал 2021</a>
+			</div>
+		</div>
+	</div>	
 </div>
-
 
 
 <? include 'footer.inc'; ?>

@@ -79,6 +79,4 @@ $(function($)
 			$('#question-letter_info').removeAttr('required');
 		}		
 	})
-	
-	
 })

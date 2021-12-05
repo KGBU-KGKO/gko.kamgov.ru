@@ -187,14 +187,14 @@ $(function($)
 			$('#question-letter_info').removeAttr('required');
 		}		
 	})
-	/*$('#question-agree').click(function()
+	$('#question-agree').click(function()
 	{
 		if ( $(this).is(':checked') )
 			$('button[type="submit"]').removeAttr('disabled');
 		
 		else
 			$('button[type="submit"]').attr('disabled', '');			
-	})*/
+	})
 	$('#feedback-form').submit(function(e)
 	{
 		e.preventDefault();		
