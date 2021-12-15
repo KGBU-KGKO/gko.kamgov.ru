@@ -10,6 +10,38 @@
 		<h1 class="title">Акты об определении кадастровой стоимости в соответствии ст.16 Федерального закона от 03.07.2016 N 237-ФЗ «О государственной кадастровой оценке»</h1>
 		<p>Акт об определении кадастровой стоимости содержит сведения о кадастровой стоимости вновь учтенных объектов недвижимости, ранее учтенных объектов недвижимости в случае внесения в Единый государственный реестр недвижимости сведений о них и объектов недвижимости, в отношении которых произошло изменение их количественных и (или) качественных характеристик.</p>
 		<div class="news-item left">
+			<div class="date">Дата акта определения кадастровой стоимости: 13.12.2021</div>
+			<div class="descr">Номер акта определения кадастровой стоимости: № АОКС-41/2021/000552</div>
+			<div class="news-link"><a href="/files/nre/2021-12-13_AOKC-41-2021-000552.ods" download><img src="/img/icon_download.svg" width="32" height="32" alt="download"> Скачать документ</a></div>
+			<hr>
+			<div class="date">Дата акта определения кадастровой стоимости: 13.12.2021</div>
+			<div class="descr">Номер акта определения кадастровой стоимости: № АОКС-41/2021/000551</div>
+			<div class="news-link"><a href="/files/nre/2021-12-13_AOKC-41-2021-000551.ods" download><img src="/img/icon_download.svg" width="32" height="32" alt="download"> Скачать документ</a></div>
+			<hr>
+			<div class="date">Дата акта определения кадастровой стоимости: 13.12.2021</div>
+			<div class="descr">Номер акта определения кадастровой стоимости: № АОКС-41/2021/000550</div>
+			<div class="news-link"><a href="/files/nre/2021-12-13_AOKC-41-2021-000550.ods" download><img src="/img/icon_download.svg" width="32" height="32" alt="download"> Скачать документ</a></div>
+			<hr>
+			<div class="date">Дата акта определения кадастровой стоимости: 13.12.2021</div>
+			<div class="descr">Номер акта определения кадастровой стоимости: № АОКС-41/2021/000549</div>
+			<div class="news-link"><a href="/files/nre/2021-12-13_AOKC-41-2021-000549.ods" download><img src="/img/icon_download.svg" width="32" height="32" alt="download"> Скачать документ</a></div>
+			<hr>
+			<div class="date">Дата акта определения кадастровой стоимости: 13.12.2021</div>
+			<div class="descr">Номер акта определения кадастровой стоимости: № АОКС-41/2021/000548</div>
+			<div class="news-link"><a href="/files/nre/2021-12-13_AOKC-41-2021-000548.ods" download><img src="/img/icon_download.svg" width="32" height="32" alt="download"> Скачать документ</a></div>
+			<hr>
+			<div class="date">Дата акта определения кадастровой стоимости: 13.12.2021</div>
+			<div class="descr">Номер акта определения кадастровой стоимости: № АОКС-41/2021/000547</div>
+			<div class="news-link"><a href="/files/nre/2021-12-13_AOKC-41-2021-000547.ods" download><img src="/img/icon_download.svg" width="32" height="32" alt="download"> Скачать документ</a></div>
+			<hr>
+			<div class="date">Дата акта определения кадастровой стоимости: 13.12.2021</div>
+			<div class="descr">Номер акта определения кадастровой стоимости: № АОКС-41/2021/000546</div>
+			<div class="news-link"><a href="/files/nre/2021-12-13_AOKC-41-2021-000546.ods" download><img src="/img/icon_download.svg" width="32" height="32" alt="download"> Скачать документ</a></div>
+			<hr>
+			<div class="date">Дата акта определения кадастровой стоимости: 13.12.2021</div>
+			<div class="descr">Номер акта определения кадастровой стоимости: № АОКС-41/2021/000545</div>
+			<div class="news-link"><a href="/files/nre/2021-12-13_AOKC-41-2021-000545.ods" download><img src="/img/icon_download.svg" width="32" height="32" alt="download"> Скачать документ</a></div>
+			<hr>
 			<div class="date">Дата акта определения кадастровой стоимости: 08.12.2021</div>
 			<div class="descr">Номер акта определения кадастровой стоимости: № АОКС-41/2021/000544</div>
 			<div class="news-link"><a href="/files/nre/2021-12-08_AOKC-41-2021-000544.ods" download><img src="/img/icon_download.svg" width="32" height="32" alt="download"> Скачать документ</a></div>
